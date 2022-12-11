@@ -1,0 +1,60 @@
+{
+  "api": {
+    "require_startup_execution": false,
+    "class_name": "IAI_GM_AnalyticsProvider",
+    "modules": [
+      "IAI_GM_AnalyticsPlugin"
+    ]
+  },
+  "dependency_repository_url": [],
+  "author_name": "Applicaster",
+  "author_email": "lelgazar@iai.co.il",
+  "name": "IAI_GM_Analytics",
+  "description": "IAI GM Analytics provider",
+  "cover_image": "",
+  "type": "analytics",
+  "identifier": "IAI_GM_Analytics",
+  "screen": false,
+  "react_native": true,
+  "ui_builder_support": true,
+  "whitelisted_account_ids": [],
+  "min_zapp_sdk": "6.3.0-Dev",
+  "deprecated_since_zapp_sdk": "",
+  "unsupported_since_zapp_sdk": "",
+  "preload": false,
+  "custom_configuration_fields": [
+    {
+      "type": "text",
+      "key": "domain",
+      "tooltip_text": "The dashboard domain to report analytics"
+    },
+    {
+      "section": "configuration",
+      "type": "checkbox",
+      "key": "enabled",
+      "initial_value": 1,
+      "label": "Plugin enabled",
+      "label_tooltip": "Disable plugin if you do not want to use plugin"
+    }
+  ],
+  "targets": [
+    "mobile"
+  ],
+  "ui_frameworks": [
+    "quickbrick"
+  ],
+  "platform": "ios_for_quickbrick",
+  "manifest_version": "9.8.1",
+  "extra_dependencies": [
+    {
+      "IAI_GM_AnalyticsPlugin": ":path => './node_modules/iai_gm_analytics/apple/IAI_GM_AnalyticsPlugin.podspec'"
+    },
+    {
+      "ZappAnalyticsPluginsSDK": ":path => './node_modules/@applicaster/zapp-analytics-plugins/apple/ZappAnalyticsPluginsSDK.podspec'"
+    }
+  ],
+  "project_dependencies": [],
+  "npm_dependencies": [
+    "IAI_GM_Analytics@1.0.0"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "api": {
+    "require_startup_execution": false,
+    "class_name": "iaiGMAnalyticsAgent"
+  },
+  "dependency_repository_url": [],
+  "author_name": "tai",
+  "author_email": "lelgazar@iai.co.il",
+  "name": "IAI_GM_Analytics",
+  "description": "IAI GM Analytics provider",
+  "cover_image": "",
+  "type": "analytics",
+  "identifier": "IAI_GM_Analytics",
+  "screen": false,
+  "react_native": true,
+  "ui_builder_support": true,
+  "whitelisted_account_ids": [],
+  "min_zapp_sdk": "6.0.0-Dev",
+  "deprecated_since_zapp_sdk": "",
+  "unsupported_since_zapp_sdk": "",
+  "preload": false,
+  "custom_configuration_fields": [
+    {
+      "type": "text",
+      "key": "site_id",
+      "tooltip_text": "Site id"
+    }
+  ],
+  "targets": [
+    "mobile"
+  ],
+  "ui_frameworks": [
+    "quickbrick"
+  ],
+  "platform": "android_for_quickbrick",
+  "manifest_version": "1.0.0",
+  "project_dependencies": [
+    {
+      "IAIGMAnalyticsPlugin": "node_modules/iai_gm_analytics/android"
+    }
+  ],
+  "npm_dependencies": [
+    "IAI_GM_Analytics@1.0.0"
+  ]
+}
