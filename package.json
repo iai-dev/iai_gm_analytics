@@ -1,0 +1,34 @@
+{
+  "name": "iai_gm_analytics",
+  "version": "1.0.0",
+  "description": "IAI GM Analytics provider",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iai-dev/iai_gm_analytics"
+  },
+  "keywords": [
+    "IAIGM",
+    "analytics"
+  ],
+  "author": "IAI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iai-dev/iai_gm_analytics"
+  },
+  "homepage": "https://github.com/iai-dev/iai_gm_analytics",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "applicaster": {
+    "supportedPlatforms": [
+      "ios_for_quickbrick",
+      "android_for_quickbrick",
+      "android_tv_for_quickbrick"
+    ],
+    "zappOwnerAccountId": "5bb4b90c395a02000ed0ec24"
+  },
+  "files": [
+    "apple",
+    "android"
+  ]
+}
